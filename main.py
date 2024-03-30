@@ -120,17 +120,6 @@ async def guessWho(ctx: SlashContext):
   )
 
   await ctx.send(embed=embed,components=rows)
-# @slash_command(name="reset",description="reset")
-# async def reset(ctx):
-#   bot.re
-  
-# @slash_command(name="help", description="show all commands")
-# async def help(ctx):
-#   ret = "```"
-#   for cmd in bot.commands:
-#     ret+=f'{cmd}\n'
-#   ret +="```"
-#   await ctx.send(ret)
 #----------------------------------------------------------------------------------
 # Functions
 #----------------------------------------------------------------------------------
